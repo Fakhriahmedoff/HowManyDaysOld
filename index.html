@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>DaysOld - Learn How Many Days Old You Are!</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h3>Enter your birthday below to see how many days old you are.</h3>
+        <form id="birthdayForm" method="post" autocomplete="off">
+            <div class="form-row">
+                <label for="bd">Enter your birthday:</label>
+                <input type="date" id="bd" />
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Calculate!" />
+            </div>
+        </form>
+        <div id="result"></div>
+        <div id="error"></div>
+    </div> 
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>

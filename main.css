@@ -1,0 +1,47 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #222;
+}
+
+input {
+    font-family: inherit;
+    color: inherit;
+    font-size: 1rem;
+    width: auto;
+    border: 1px turquoise solid;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: indigo;
+    color: #ddd;
+}
+
+input:hover {
+    border: 1px blue solid;
+}
+
+input[type=submit]:hover {
+    background-color: purple;
+    color: #aaa;
+}
+
+.container {
+    width: 50vw;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.form-row {
+    margin: 20px;
+}
+
+#result {
+    color: green;
+    font-weight: bold;
+}
+
+#error {
+    color: red;
+}
